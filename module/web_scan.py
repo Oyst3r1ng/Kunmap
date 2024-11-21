@@ -22,12 +22,10 @@ def Title(scan_url_port):
         title = response[0] if response else 'Unknown'
         banner = r.headers.get('server', 'Unknown')
         
-        output = f'{scan_url_port.ljust(30)} {banner.ljust(20)} Title: {title}\n'
+        print(f'\033[31m[+]{scan_url_port.ljust(30)} {banner.ljust(20)} Title: {title}\033[0m')
         
         with open('./files/http.txt', 'a') as f:
-            f.write(output)
-        
-        print(output)
+            f.write(f'{scan_url_port.ljust(30)} {banner.ljust(20)} Title: {title}\n')
 
     except requests.exceptions.RequestException as e:
         print(f"[ERROR] Failed to get title for {scan_url_port}: {e}")

@@ -36,11 +36,11 @@ def ScanAliveHosts():
             result = future.result()
             if result:
                 alive_ips.append(result)
-                print(f"{result} is alive.")
+                print(f"[*]{result} is alive.")
             else:
-                print(f"{ip} is not alive.")
+                print(f"[*]{ip} is not alive.")
 
             progress = (index / total_ips) * 100
-            print(f"Scanning progress: {progress:.2f}% ({index}/{total_ips})")
+            print(f"[*]Scanning progress: {progress:.2f}% ({index}/{total_ips})")
     
     return alive_ips
