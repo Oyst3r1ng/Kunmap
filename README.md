@@ -1,5 +1,11 @@
 <h1 align="center">Kunmap - 更高效的资产收集</h1>
 
+![GitHub stars](https://img.shields.io/github/stars/Oyst3r1ng/Kunmap)
+
+![GitHub release](https://img.shields.io/github/forks/Oyst3r1ng/Kunmap)
+
+![](https://img.shields.io/badge/python-%3E%3D3.2-yellow)
+
 
 
 # 0x00 介绍
