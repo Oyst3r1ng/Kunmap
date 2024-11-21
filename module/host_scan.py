@@ -14,7 +14,7 @@ import concurrent.futures
 def HostAlive(scan_ip):
     nm = nmap.PortScanner()
     try:
-        nm.scan(scan_ip, arguments='-sn')
+        nm.scan(scan_ip, arguments='-sn -Pn')
         return scan_ip if nm.all_hosts() else None
     except nmap.PortScannerError as e:
         print(f"[ERROR] Nmap scan failed for {scan_ip}: {e}")

@@ -14,6 +14,17 @@ Kunmap 是一款快速、高效的资产探测端口扫描工具。集成了 mas
 GitHub: https://github.com/Oyst3r1ng/Kunmap
 作者: Oyst3r
 团队: 36Kun Security Team
+
+Kunmap即将启动，请确保 `files` 文件夹中包含所有必要的数据文件
+开始执行主机存活性检测...
+xxx.xxx.xxx.xxx is alive.
+Scanning progress: 100.00% (1/1)
+主机存活性检测完成，开始执行端口扫描...
+Starting masscan 1.3.9-integration (http://bit.ly/14GZzcT) at 2024-11-21 06:48:51 GMT
+Initiating SYN Stealth Scan
+
+自己去探索鸭......
+
 ```
 
 ![GitHub stars](https://img.shields.io/github/stars/Oyst3r1ng/Kunmap)   ![GitHub release](https://img.shields.io/github/forks/Oyst3r1ng/Kunmap)
@@ -36,7 +47,7 @@ Kunmap 是一款高效的资产探测工具🔧，专注于端口扫描探测。
 
 - 做为前期打点中信息收集中的一环，快速🔜去识别到高风险的资产，进行下一步的利用
 
-Fofa、Zoomeye、ARL...-->Kunmap...-->Ehole、Poc、Burp...
+Fofa、Zoomeye、ARL... --> Kunmap... --> Ehole、Poc、Burp...
 
 - ......
 
@@ -87,7 +98,7 @@ Tips：上图中files目录下共有6个txt文件，其中只有ipc.txt、domain
 
 ```
 cd Kunmap
-python3 main.py
+sudo python3 main.py
 ```
 
 Tips：完全开源的，里面的各种参数大家伙可以根据自己的需求去修改，Oyst3r后续会考虑把Kunmap加上一些参数，方便大家伙儿在命令行调用main.py的时候就可以调整！

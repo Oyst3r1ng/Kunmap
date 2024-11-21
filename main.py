@@ -73,4 +73,4 @@ if __name__ == '__main__':
     start_time = datetime.datetime.now()
     main()
     spend_time = (datetime.datetime.now() - start_time).seconds
-    print(f'Kunmap运行总共用时: {spend_time} 秒')
+    print(f'\033[92mKunmap运行总共用时: {spend_time} 秒\033[0m')
