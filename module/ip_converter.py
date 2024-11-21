@@ -1,3 +1,12 @@
+# encoding: utf-8
+
+'''
+@author: Oyst3r
+@contact: oyst3r@icloud.com
+@File: ip_converter.py
+@Time: 2024/11/07
+'''
+
 import IPy
 
 # 将 IPC 转为 IP

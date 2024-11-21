@@ -1,3 +1,12 @@
+# encoding: utf-8
+
+'''
+@author: Oyst3r
+@contact: oyst3r@icloud.com
+@File: domain_ip.py
+@Time: 2024/11/07
+'''
+
 import socket
 import time
 

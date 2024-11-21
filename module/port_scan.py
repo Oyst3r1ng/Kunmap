@@ -1,3 +1,12 @@
+# encoding: utf-8
+
+'''
+@author: Oyst3r
+@contact: oyst3r@icloud.com
+@File: port_scan.py
+@Time: 2024/11/07
+'''
+
 import os
 import json
 

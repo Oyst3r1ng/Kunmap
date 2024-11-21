@@ -1,6 +1,14 @@
+# encoding: utf-8
+
+'''
+@author: Oyst3r
+@contact: oyst3r@icloud.com
+@File: host_scan.py
+@Time: 2024/11/07
+'''
+
 import nmap
 import concurrent.futures
-import os
 
 # 获取主机存活性
 def HostAlive(scan_ip):
