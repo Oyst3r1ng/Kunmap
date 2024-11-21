@@ -1,4 +1,4 @@
-<h1 align="center">Kunmap - 更高效的资产收集</h1>
+# Kunmap - 更高效的资产收集
 
 喵喵喵！！！
 
@@ -24,22 +24,21 @@ Starting masscan 1.3.9-integration (http://bit.ly/14GZzcT) at 2024-11-07 06:48:5
 Initiating SYN Stealth Scan
 
 自己去探索鸭......
-
 ```
 
 ![GitHub stars](https://img.shields.io/github/stars/Oyst3r1ng/Kunmap)   ![GitHub release](https://img.shields.io/github/forks/Oyst3r1ng/Kunmap)
 
 ![](https://img.shields.io/badge/python-%3E%3D3.2-yellow)
 
-# 0x00 介绍
+## 0x00 介绍
 
-## 工具介绍
+### 工具介绍
 
 Kunmap 是36Kun安全团队的成员-Oyst3r开发，工具名字便为Kunmap。
 
 Kunmap 是一款高效的资产探测工具🔧，专注于端口扫描探测。该工具集成了两种强大的扫描器：Masscan 和 Nmap。Masscan 负责快速扫描端口，Nmap 则深入探测端口对应的服务信息。通过结合二者的优势，Kunmap 实现了高效与精准的扫描效果。
 
-## 应用场景
+### 应用场景
 
 - 可以用于甲方安全工作中针对于内网脆弱资产的收集，也是这个工具被开发的初衷！
 
@@ -51,11 +50,11 @@ Fofa、Zoomeye、ARL... --> Kunmap... --> Ehole、Poc、Burp...
 
 - ......
 
-# 0x01 安装及使用
+## 0x01 安装及使用
 
 Tips：安装以及使用都需要 Python3 的支持⬆️
 
-## 安装
+### 安装
 
 ```
 git clone https://github.com/Oyst3r1ng/Kunmap.git
@@ -65,7 +64,7 @@ pip3 install -r requirements.txt
 至此安装完成
 ```
 
-## 使用
+### 使用
 
 项目整体的结构如下
 
@@ -105,7 +104,7 @@ Tips：完全开源的，里面的各种参数大家伙可以根据自己的需�
 
 3. 进入files文件夹查看扫描的结果
 
-# 0x03 Todo
+## 0x03 Todo
 
 1. 结合Ehole，增添指纹识别的功能
 
@@ -117,6 +116,10 @@ Tips：完全开源的，里面的各种参数大家伙可以根据自己的需�
 
 5. ......
 
-# 0x04 Contribute
+## 0x04 Contribute
 
 Kunmap By Oyst3r、36Kun Security Team、Fir3W411团队
+
+## 0x05 Disclaimer
+
+请勿将本项目技术或代码应用在恶意软件制作、软件著作权/知识产权盗取或不当牟利等非法用途中。实施上述行为或利用本项目对非自己著作权所有的程序进行数据嗅探将涉嫌违反《中华人民共和国刑法》第二百一十七条、第二百八十六条，《中华人民共和国网络安全法》《中华人民共和国计算机软件保护条例》等法律规定。本项目提及的技术仅可用于私人学习测试等合法场景中，任何不当利用该技术所造成的刑事、民事责任均与本项目作者无关。
