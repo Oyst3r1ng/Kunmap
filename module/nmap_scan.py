@@ -3,7 +3,7 @@
 '''
 @author: Oyst3r
 @contact: oyst3r@icloud.com
-@File: nmap_scan.py
+@File: namp_scan.py
 @Time: 2024/11/07
 '''
 
@@ -18,10 +18,10 @@ def Nmapscan_worker(scan_ip, ports):
         try:
             ret = nm.scan(scan_ip, port, arguments='-sV -Pn -T4 -n')
             service_name = ret['scan'][scan_ip]['tcp'][int(port)]['name']
-            print(f'[*] 主机 {scan_ip} 的 {port} 端口服务为：{service_name}')
+            print(f'\033[31m[*] 主机 {scan_ip} 的 {port} 端口服务为：{service_name}\033[0m')
             with open('./files/result.txt', 'a') as f:
                 f.writelines(f'[*] 主机 {scan_ip} 的 {port} 端口服务为：{service_name}\n')
-
+                
             if 'http' in service_name:
                 scan_url_port = f'http://{scan_ip}:{port}'
                 Title(scan_url_port)

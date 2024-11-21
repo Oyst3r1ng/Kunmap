@@ -1,5 +1,7 @@
 <h1 align="center">Kunmap - 更高效的资产收集</h1>
 
+喵喵喵！！！
+
 ```
 ██╗  ██╗██╗   ██╗███╗   ██╗███╗   ███╗ █████╗ ██████╗
 ██║ ██╔╝██║   ██║████╗  ██║████╗ ████║██╔══██╗██╔══██╗
@@ -7,13 +9,16 @@
 ██╔═██╗ ██║   ██║██║╚██╗██║██║╚██╔╝██║██╔══██║██╔═══╝ 
 ██║  ██╗╚██████╔╝██║ ╚████║██║ ╚═╝ ██║██║  ██║██║     
 ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝     - V 1.0.0 Beta
+
+Kunmap 是一款快速、高效的资产探测端口扫描工具。集成了 masscan 和 nmap，提供从端口扫描到服务识别的一体化体验。
+GitHub: https://github.com/Oyst3r1ng/Kunmap
+作者: Oyst3r
+团队: 36Kun Security Team
 ```
 
 ![GitHub stars](https://img.shields.io/github/stars/Oyst3r1ng/Kunmap)   ![GitHub release](https://img.shields.io/github/forks/Oyst3r1ng/Kunmap)
 
 ![](https://img.shields.io/badge/python-%3E%3D3.2-yellow)
-
-
 
 # 0x00 介绍
 
@@ -85,6 +90,8 @@ cd Kunmap
 python3 main.py
 ```
 
+Tips：完全开源的，里面的各种参数大家伙可以根据自己的需求去修改，Oyst3r后续会考虑把Kunmap加上一些参数，方便大家伙儿在命令行调用main.py的时候就可以调整！
+
 3. 进入files文件夹查看扫描的结果
 
 # 0x03 Todo
@@ -95,7 +102,10 @@ python3 main.py
 
 3. 增加图形化界面
 
-4. ......
+4. 增加命令行参数
 
+5. ......
 
+# 0x04 Contribute
 
+Kunmap By Oyst3r、36Kun Security Team、Fir3W411团队
