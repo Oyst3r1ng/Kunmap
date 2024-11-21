@@ -20,7 +20,7 @@ Kunmap即将启动，请确保 `files` 文件夹中包含所有必要的数据�
 xxx.xxx.xxx.xxx is alive.
 Scanning progress: 100.00% (1/1)
 主机存活性检测完成，开始执行端口扫描...
-Starting masscan 1.3.9-integration (http://bit.ly/14GZzcT) at 2024-11-21 06:48:51 GMT
+Starting masscan 1.3.9-integration (http://bit.ly/14GZzcT) at 2024-11-07 06:48:51 GMT
 Initiating SYN Stealth Scan
 
 自己去探索鸭......
@@ -43,7 +43,7 @@ Kunmap 是一款高效的资产探测工具🔧，专注于端口扫描探测。
 
 - 可以用于甲方安全工作中针对于内网脆弱资产的收集，也是这个工具被开发的初衷！
 
-真实案例-->快速扫描某甲方企业的内网网段的部分资产，期间设备无告警、无异常
+真实案例-->快速扫描某甲方企业的内网网段的部分资产，期间设备无告警、无异常，成功发现内网里面n起脆弱资产！
 
 - 做为前期打点中信息收集中的一环，快速🔜去识别到高风险的资产，进行下一步的利用
 
