@@ -7,16 +7,16 @@
 @Time: 2024/11/07
 '''
 
-import nmap
+import nmap3
 import concurrent.futures
 
 # 获取主机存活性
 def HostAlive(scan_ip):
-    nm = nmap.PortScanner()
+    nm = nmap3.PortScanner()
     try:
         nm.scan(scan_ip, arguments='-sn -Pn')
         return scan_ip if nm.all_hosts() else None
-    except nmap.PortScannerError as e:
+    except nmap3.PortScannerError as e:
         print(f"[ERROR] Nmap scan failed for {scan_ip}: {e}")
     except Exception as e:
         print(f"[ERROR] Failed to scan {scan_ip} for host status: {e}")

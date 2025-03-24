@@ -1,6 +1,6 @@
 chardet
 requests
 urllib3
-python-nmap==0.6.4
+python3-nmap
 IPy
 prettytable
