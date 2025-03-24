@@ -114,7 +114,7 @@ Tips：完全开源的，里面的各种参数大家伙可以根据自己的需�
 
 ## 0x04 Contribute
 
-Kunmap By Oyst3r、36Kun Security Team、Fir3W411团队
+Kunmap By Oyst3r、36Kun Security Team
 
 ## 0x05 Disclaimer
 
